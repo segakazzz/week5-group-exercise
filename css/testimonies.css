@@ -4,6 +4,7 @@
 .testimony {
   padding: 10px;
 }
+
 img {
   width: 100%;
 }
@@ -13,10 +14,27 @@ img {
 
 #testimonies-main h1 {
   text-align: center;
+  /* font-family: 'Acme', sans-serif; */
+  font-family: 'Amatic SC', cursive;
+  /* font-family: 'Jacques Francois Shadow', cursive;
+  font-family: 'Lacquer', sans-serif; */
+  color: #555454;
+  font-size: 3rem;
 }
 
 #testimonies-main .grid-item {
   width: 300px;
+  background: white; 
+}
+
+#testimonies-main .grid-item:hover{
+  width: 600px;
+  z-index: 1;
+  margin: 10px;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  box-sizing: border-box;
 }
 
 #testimonies-main .grid-item--width2 {
