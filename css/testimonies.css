@@ -1,9 +1,28 @@
 .testimony .card {
-    padding: 0;
+  padding: 0;
 }
-img{
-    width: 100%;
+.testimony {
+  padding: 10px;
 }
-.card-body span.badge{
-    margin: 0 5px 0 0;
+img {
+  width: 100%;
+}
+.card-body span.badge {
+  margin: 0 5px 0 0;
+}
+
+#testimonies-main h1 {
+  text-align: center;
+}
+
+#testimonies-main .grid-item {
+  width: 300px;
+}
+
+#testimonies-main .grid-item--width2 {
+  width: 600px;
+}
+
+#testimonies-main .grid{
+  margin: 0 auto;
 }

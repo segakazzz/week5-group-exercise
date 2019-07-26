@@ -11,7 +11,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/testimonies2.css" />
+    <link rel="stylesheet" href="css/testimonies.css" />
 
     <title>This is Testimonies!</title>
   </head>
@@ -54,10 +54,11 @@
       </div>
     </nav>
     <!-- END BOOTSTRAP NAVBAR -->
-    <h1>Testiminies</h1>
-    <div class="container">
-      <div class="row">
-        <div class="testimony col-12 col-md-6 col-lg-4 col-xl-3">
+
+    <section id="testimonies-main" class="container-fluid">
+        <h1 id="testimonies-title">Testiminies</h1>
+      <div class="grid">
+        <div class="testimony grid-item">
           <div class="card">
             <img
               src="https://mdbootstrap.com/img/Photos/Others/image02.jpg"
@@ -65,7 +66,7 @@
               alt="..."
             />
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5>Card title</h5>
               <p class="card-text">
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
@@ -73,7 +74,8 @@
             </div>
           </div>
         </div>
-        <div class="testimony col-12 col-md-6 col-lg-4 col-xl-3">
+        <div class="testimony grid-item">
+
           <div class="card">
             <img
               src="https://mdbootstrap.com/img/Photos/Others/image002.jpg"
@@ -89,7 +91,8 @@
             </div>
           </div>
         </div>
-        <div class="testimony col-12 col-md-6 col-lg-4 col-xl-3">
+        <div class="testimony grid-item">
+
           <div class="card">
             <img
               src="https://mdbootstrap.com/img/Photos/Others/food3.jpg"
@@ -97,7 +100,9 @@
               alt="..."
             />
             <div class="card-body">
-              <h5 class="card-title"><span class="badge badge-danger">New!</span>Card title</h5>
+              <h5 class="card-title">
+                <span class="badge badge-danger">New!</span>Card title
+              </h5>
               <p class="card-text">
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
@@ -105,24 +110,82 @@
             </div>
           </div>
         </div>
-        <div class="testimony col-12 col-md-6 col-lg-4 col-xl-3">
-                <div class="card">
-                  <img
-                    src="https://mdbootstrap.com/img/Photos/Others/food3.jpg"
-                    class="card-img-top"
-                    alt="..."
-                  />
-                  <div class="card-body">
-                    <h5 class="card-title"><span class="badge badge-danger">New!</span>Card title</h5>
-                    <p class="card-text">
-                      Some quick example text to build on the card title and make up
-                      the bulk of the card's content.
-                    </p>
-                  </div>
-                </div>
-              </div>
-      </div>
-    </div>
+        <div class="testimony grid-item">
+
+          <div class="card">
+            <img
+              src="https://mdbootstrap.com/img/Photos/Others/food3.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                <span class="badge badge-danger">New!</span>Card title
+              </h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="testimony grid-item">
+
+          <div class="card">
+            <img
+              src="https://mdbootstrap.com/img/Photos/Others/food3.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                <span class="badge badge-danger">New!</span>Card title
+              </h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="testimony grid-item">
+
+          <div class="card">
+            <img
+              src="https://mdbootstrap.com/img/Photos/Others/food3.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                <span class="badge badge-danger">New!</span>Card title
+              </h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="testimony grid-item">
+          <div class="card">
+            <img
+              src="https://mdbootstrap.com/img/Photos/Others/food3.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                <span class="badge badge-danger">New!</span>Card title
+              </h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
     Ï
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -139,5 +202,16 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+    <script>
+      $(function() {
+        $(".grid").masonry({
+          // options
+          itemSelector: ".grid-item",
+          columnWidth: 300,
+          fitWidth: true
+        });
+      });
+    </script>
   </body>
 </html>
