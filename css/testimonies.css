@@ -1,0 +1,9 @@
+.testimony .card {
+    padding: 0;
+}
+img{
+    width: 100%;
+}
+.card-body span.badge{
+    margin: 0 5px 0 0;
+}
