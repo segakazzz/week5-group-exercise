@@ -14,7 +14,26 @@
     <title>Subscribe Page</title>
 </head>
 
-<body>
+<body class="background img-fluid">
+    
+    <!-- BOOTSTRAP NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <!-- LOGO <img src="img/logo.png" alt="logo"> --> 
+            <!-- REPLACE THIS TEXT WITH THE LOGO -->
+            <a class="navbar-brand" href="#">&nbsp;goGiter Adventures!</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div style="justify-content: flex-end" class="collapse navbar-collapse" id="navbarNav">
+                <ul style="text-align: center" class="navbar-nav">
+                    <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="subscribe.html">Subscribe</a></li>
+                    <li class="nav-item"><a class="nav-link" href="testimonies.html">Testimonies</a></li>
+                </ul>
+            </div>
+        </nav>
+    <!-- END BOOTSTRAP NAVBAR -->
     <header><h1 class='row display-3 justify-content-center align-items-center'>Don't Miss Out On More!</h1></header>
     <!-- logo image -->
     <pc class="lead row justify-content-center">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
@@ -23,18 +42,15 @@
         the breach. Claim your $125. Excepteur sint occaecat cupidatat non proident, sunt in
           culpa qui officia deserunt mollit anim id est laborum."</p>
     <form action="" class='row justify-content-center align-items-center'></form>
-        <br>
-        <input type="text" value="" placeholder="First and Last Name" class='col-2'>
-        <input type="text" readonly value="" placeholder="Social Security #" class='col-2'>
-        <input type="email" value="" placeholder="Your Email Address" class='col-2'>
-        <div>How often would you like an email?<br>
+        <input class="col-2" type="text" value="" placeholder="First and Last Name" class='col-2'><br>
+        <input class="col-2" type="email" value="" placeholder="Your Email Address" class='col-2'><br>
+        <!-- <div>How often would you like an email?<br>
             <input type="radio" name="Volume" value="Monthly">Monthly<br>
             <input type="radio" name="Volume" value="Weekly">Weekly<br>
             <input type="radio" name="Volume" value="Daily">Daily<br>
 
-        </div>
-        <br>
-        <input type="submit" value="Submit"> <br>
+        </div> -->
+        <input class="col-1" type="submit" value="Submit"> <br>
     </form>
     <div class="row">
         <!-- Insert Images towards bottom of page spaced out -->
