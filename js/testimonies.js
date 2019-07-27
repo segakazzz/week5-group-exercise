@@ -27,13 +27,17 @@ $(function() {
       if (isNew) {
         $cardTitle.prepend($new);
       }
-
+      let $location = $("<div>")
+        .addClass("container-fluid location")
+        .text(element.city + ' ,'+ element.country)
+        .prepend($("<i>").addClass("fas fa-thumbtack"))
       let $cardText = $("<p>").text(element.text);
       let $cardBody = $("<div>")
         .addClass("card-body")
         .append($cardTitle)
         .append($cardText)
-        .append($('<hr>'));
+        .append($location)
+        .append($("<hr>"));
 
       let $facepic = $("<div>")
         .addClass("face col-3")
@@ -61,7 +65,8 @@ $(function() {
       let $commentArea = $("<div>")
         .addClass("container-fluid comment-area")
         .append($facepicAndComment)
-        .append($date).appendTo($cardBody);
+        .append($date)
+        .appendTo($cardBody);
 
       let $card = $("<div>")
         .addClass("card")

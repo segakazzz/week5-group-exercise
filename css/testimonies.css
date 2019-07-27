@@ -66,3 +66,18 @@ img {
 #testimonies-main .face{
   padding: 0
 }
+
+#testimonies-main .location{
+  text-align: end;
+  font-size: 0.8rem;
+  color: gray;
+}
+
+#testimonies-main .card-text{
+  margin: 0;
+}
+
+
+#testimonies-main .card-body i{
+  margin: 0 2px;
+}
