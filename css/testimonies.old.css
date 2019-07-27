@@ -1,0 +1,102 @@
+h1 {
+    color: red;
+}
+.page-contents{
+    font-family: 'Noto Sans', sans-serif;
+    /* font-family: 'Ubuntu', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Open Sans Condensed', sans-serif; */
+}
+
+#testimonies{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+.testimony {
+    padding: 10px;
+    border: 1px solid dotted;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.img{
+
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.text{
+    padding: 10px;
+    
+}
+.green {
+    background: green;
+}
+
+.yellow {
+    background: yellow;
+}
+
+
+
+* { box-sizing: border-box; }
+
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.grid-sizer,
+.grid-item {
+  width: 33.333%;
+}
+@media (max-width: 575px) {
+  .grid-sizer,
+  .grid-item {
+    width: 100%;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .grid-sizer,
+  .grid-item {
+    width: 50%;
+  }
+}
+
+/* To change the amount of columns on larger devices, uncomment the code below */
+
+/* @media (min-width: 768px) and (max-width: 991px) {
+  .grid-sizer,
+  .grid-item {
+    width: 33.333%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .grid-sizer,
+  .grid-item {
+    width: 25%;
+  }
+}
+@media (min-width: 1200px) {
+  .grid-sizer,
+  .grid-item {
+    width: 20%;
+  }
+} */
+
+.grid-item {
+  float: left;
+}
+
+.grid-item img {
+  display: block;
+  max-width: 100%;
+}
