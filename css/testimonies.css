@@ -1,0 +1,83 @@
+
+.testimony .card {
+  padding: 0;
+}
+.testimony {
+  padding: 10px;
+}
+
+img {
+  width: 100%;
+}
+
+#testimonies-main .card-body{
+  /* position: relative; */
+}
+#testimonies-main .card-body img{
+  /* position: absolute;
+  top: 10px;
+  right: 10px; */
+  max-width: 100px;
+  border-radius: 50%;
+}
+.card-body span.badge {
+  margin: 0 5px 0 0;
+}
+
+#testimonies-main h1 {
+  text-align: center;
+  /* font-family: 'Acme', sans-serif; */
+  font-family: 'Amatic SC', cursive;
+  /* font-family: 'Jacques Francois Shadow', cursive;
+  font-family: 'Lacquer', sans-serif; */
+  color: #555454;
+  font-size: 3rem;
+}
+
+#testimonies-main .grid-item {
+  width: 300px;
+  background: white; 
+}
+
+/* #testimonies-main .testimony.grid-item:hover{
+  width: 600px;
+  z-index: 1;
+  margin: 10px;
+  position: absoluete;
+  top: 10px;
+  left: 10px;
+  box-sizing: border-box;
+} */
+
+#testimonies-main .grid-item--width2 {
+  width: 600px;
+}
+
+#testimonies-main .grid{
+  margin: 0 auto;
+}
+
+#testimonies-main .date{
+  font-size: 0.8rem;
+  color: gray;
+  text-align: end;
+}
+
+#testimonies-main .face{
+  padding: 0
+}
+
+#testimonies-main .location{
+  text-align: end;
+  font-size: 0.8rem;
+  color: gray;
+}
+
+#testimonies-main .card-text{
+  margin: 0;
+}
+
+
+#testimonies-main .card-body i{
+  margin: 0 2px;
+}

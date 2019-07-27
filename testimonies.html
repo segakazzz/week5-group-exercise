@@ -10,21 +10,104 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/testimonies.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Acme|Amatic+SC|Jacques+Francois+Shadow|Lacquer&display=swap"
+      rel="stylesheet"
+    />
+
     <title>This is Testimonies!</title>
   </head>
   <body>
-    <h1>This is testimonies!</h1>
+    <!-- BOOTSTRAP NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <!-- LOGO <img src="img/logo.png" alt="logo"> -->
+      <!-- REPLACE THIS TEXT WITH THE LOGO -->
+      <a class="navbar-brand" href="#">&nbsp;goGiter Adventures!</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div
+        style="justify-content: flex-end"
+        class="collapse navbar-collapse"
+        id="navbarNav"
+      >
+        <ul style="text-align: center" class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="subscribe.html">Subscribe</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="testimonies.html">Testimonies</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- END BOOTSTRAP NAVBAR -->
 
-
-
-
-
-    
-    <script
+    <section id="testimonies-main" class="container-fluid">
+      <h1 id="testimonies-title">Our adventures never end...</h1>
+      <div class="grid">
+        <div class="testimony grid-item">
+          <div class="card">
+            <img
+              src="https://mdbootstrap.com/img/Photos/Others/image02.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5>Card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <div class="container-fluid location">
+                <i class="fas fa-thumbtack"></i>
+                Houston, US
+              </div>
+              <hr />
+              <div class="container-fluid comment-area">
+                <div class="row">
+                  <div class="face col-3">
+                    <img src="/img/facepic/kazue.jpg" />
+                  </div>
+                  <div class="comment col">
+                    test codfg ;dflg;'dfkdg lkdflgk d lf;'lgd ;mment
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="date col-12">Mar 30, 2018</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    Ï<script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <!-- <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
       crossorigin="anonymous"
-    ></script>
+    ></script> -->
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
       integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
@@ -35,5 +118,8 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
+    <script src="https://kit.fontawesome.com/21961517fb.js"></script>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+    <script type="text/javascript" src="js/testimonies.js"></script>
   </body>
 </html>
