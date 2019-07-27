@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Responsive Layout Code Snippet -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+    <!-- Normalize enabled-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.5.0/modern-normalize.css" integrity="sha256-wOIgn5DueqkvX+IpwWJkwzQblHz45CGXEOjju1aHqFg=" crossorigin="anonymous" />
+    <!-- Bootstrap enabled -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- My Styles -->
+    <link rel="stylesheet" href="subscribe.css">
+    <!-- Fonts -->
+    <link href=“https://fonts.googleapis.com/css?family=Acme%7CAmatic+SC%7CJacques+Francois+Shadow%7CLacquer&display=swap” rel=“stylesheet”/>
+
+    <title>Subscribe Page</title>
+</head>
+
+<body class="background img-fluid">
+    
+    <!-- BOOTSTRAP NAVBAR -->
+	<style>
+            .navbar-brand {
+                font-size: 2em;
+                margin: auto;
+            }
+            @media (max-width: 350px){
+                .navbar-brand {
+                    font-size: 1.5em;
+                }
+            }
+        </style>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="font-family: 'Amatic SC', cursive; position: fixed; top: 0; width: 100%">
+            <a href="index.html"><img href="index.html" height="50" src="img/logo.png" alt="logo"></a>
+            <a class="navbar-brand" href="index.html">&nbsp;goGiter Adventures!</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div style="justify-content: flex-end" class="collapse navbar-collapse" id="navbarNav">
+                <ul style="text-align: center; font-size: 2em" class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="subscribe.html">Subscribe</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="testimonies.html">Testimonies</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- this div adds padding so the navbar does not cover the top of the main content -->
+        <div style="padding-bottom: 75px"></div>
+        <!-- END BOOTSTRAP NAVBAR -->
+    <div id="subscribe-main" >
+    <div class="container-fluid">
+
+        <header class="row align-items-center">
+            <h1 class='col display-3 justify-content-center align-items-center'>Don't Miss Out On More!</h1>
+        </header>
+        <!-- logo image -->
+        <div>
+            <p class="lead row justify-content-center align-items-center;">Subscribe to our email list for access to deals, destinations, and fun!</p>
+        </div>
+        <form class="col-12 col-md-6 offset-md-3">
+            <div class="form-group">
+                <label for="Name">Name</label>
+                <input type="name" class="form-control" id="name" placeholder="Name">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                <small id="emailHelp" class="form-text text-white">We'll never share your email with anyone else.</small>
+            </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+        <!-- My original form -->
+        <!-- <form action="" class='row justify-content-center align-items-center'></form>
+            <input class="col-sm-2 offset-3" type="text" value="" placeholder="Name" class='col-2'><br>
+            <input class="col-sm-2" type="email" value="" placeholder="Email" class='col-2'><br>
+            <input class="col-2" type="submit" value="Submit"> <br>
+        </form> -->
+    </div>
+</div>
+	<!-- FOOTER -->
+	<footer>
+            <style>
+                .footer {
+                    position: fixed;
+                    left: 0;
+                    bottom: 0;
+                    width: 100%;
+                    background-color: #343a40;
+                    color: gray;
+                    text-align: center;
+                    font-size: .75em;
+                    z-index: 2;
+                }
+                .footer p {
+                    margin-top: 1rem;
+                }
+                </style>
+                
+                <!-- this div adds padding so things don't get hidden behind the footer -->
+                <div style="padding-top:50px"></div>
+                <div class="footer">
+                    <p>&copy; 2019 goGiter Adventures</p>
+                </div>
+            </footer>
+            <!-- END FOOTER -->
+    <!-- Activates Bootsrap Javascript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>
