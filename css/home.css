@@ -1,33 +1,31 @@
-.carousel-inner img {
-    max-height: 600px;
-    width: auto;
+#home .carousel-control-next:hover {
+    background-color: rgba(128, 128, 128, 0.301);
 }
 
-.carousel-control-next,
-.carousel-control-prev {
-    filter: invert(100%);
+#home .carousel-control-prev:hover {
+    background-color: rgba(128, 128, 128, 0.301);
 }
-
-.carousel-indicators li {
-    background-color: darkslategray
+#home .carousel-indicators {
+    z-index: 1;
 }
-
 #home h1 {
     font-family: 'Amatic SC', cursive;
     font-size: 3em;
     margin: 20px;
 }
-
 #home p {
     text-align: center;
     padding-left: 10px;
     padding-right: 10px;
-
 }
 
 @media (max-width: 500px) {
     #home h1 {
         font-size: 2em;
+    }
+
+    #home .nav-link {
+        font-size: .75em;
     }
 
 }
@@ -36,8 +34,7 @@
     #home h1 {
         font-size: 1.75em;
     }
-
-    .navbar-brand-mobile {
-        font-size: 1.5em;
+    #home p {
+        font-size: .75em;
     }
 }
