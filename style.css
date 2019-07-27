@@ -1,0 +1,9 @@
+body{
+    <link href=“https://fonts.googleapis.com/css?family=Acme%7CAmatic+SC%7CJacques+Francois+Shadow%7CLacquer&display=swap” rel=“stylesheet”/>
+   
+    margin: 75px;
+    background-image: url(img/mapbackground.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(255, 247,237)
+}
