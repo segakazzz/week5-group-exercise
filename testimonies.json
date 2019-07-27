@@ -1,42 +1,42 @@
 [
   {
-    "imgSource": "https://mdbootstrap.com/img/Photos/Others/food3.jpg",
+    "imgSource": "img/amalfi.jpg",
     "date": "2019-07-01",
     "city": "Houston",
     "country": "US",
     "title": "test",
     "text": "testtext",
-    "who": "kazue",
+    "who": "Kazue",
     "comment": "comment comment comment comment........."
   },
   {
-    "imgSource": "https://mdbootstrap.com/img/Photos/Others/food3.jpg",
+    "imgSource": "img/amsterdam.jpg",
     "date": "2017-10-30",
     "city": "Houston",
     "country": "US",
     "title": null,
     "text": "testtext",
-    "who": "kazue",
+    "who": "Oshea",
     "comment": "comment comment comment comment........."
   },
   {
-    "imgSource": "https://mdbootstrap.com/img/Photos/Others/food2.jpg",
+    "imgSource": "img/huts.jpg",
     "date": "2017-08-26",
     "city": "Houston",
     "country": "US",
     "title": null,
     "text": "Some quick example text to build on the card title and make up the bulk of the card's content.",
-    "who": "kazue",
+    "who": "Joey",
     "comment": "comment comment comment comment........."
   },
   {
-    "imgSource": "https://mdbootstrap.com/img/Photos/Others/image06.jpg",
+    "imgSource": "maldives.jpg",
     "date": "2016-12-19",
     "city": "Houston",
     "country": "US",
     "title": null,
     "text": "Some quick example text to build on the card title and make up the bulk of the card's content.",
-    "who": "kazue",
+    "who": "Terrance",
     "comment": "comment comment comment comment........."
   },
   {
@@ -46,7 +46,7 @@
     "country": "US",
     "title": null,
     "text": "Some quick example text to build on the card title and make up the bulk of the card's content.",
-    "who": "kazue",
+    "who": "Kazue",
     "comment": "comment comment comment comment........."
   },
   {
@@ -55,7 +55,7 @@
     "city": "Houston",
     "country": "US",
     "title": null,
-    "who": "kazue",
+    "who": "Oshea",
     "text": "Some quick example text to build on the card title and make up the bulk of the card's content."
   },
   {
@@ -65,7 +65,7 @@
     "country": "US",
     "title": null,
     "text": "Some quick example text to build on the card title and make up the bulk of the card's content.",
-    "who": "kazue",
+    "who": "Joey",
     "comment": "comment comment comment comment........."
   },
   {
@@ -75,7 +75,7 @@
     "country": "US",
     "title": null,
     "text": "Some quick example text to build on the card title and make up the bulk of the card's content.",
-    "who": "kazue",
+    "who": "Terrance",
     "comment": "comment comment comment comment........."
   },
   {
@@ -85,7 +85,7 @@
     "country": "US",
     "title": null,
     "text": "Some quick example text to build on the card title and make up the bulk of the card's content.",
-    "who": "kazue",
+    "who": "Kazue",
     "comment": "comment comment comment comment........."
   },
   {
@@ -95,7 +95,7 @@
     "country": "US",
     "title": null,
     "text": "Some quick example text to build on the card title and make up the bulk of the card's content.",
-    "who": "kazue",
+    "who": "Oshea",
     "comment": "comment comment comment comment........."
   },
   {
@@ -105,7 +105,7 @@
     "country": "US",
     "title": null,
     "text": "Some quick example text to build on the card title and make up the bulk of the card's content.",
-    "who": "kazue",
+    "who": "Joey",
     "comment": "comment comment comment comment........."
   },
   {
@@ -115,7 +115,7 @@
     "country": "US",
     "title": null,
     "text": "Some quick example text to build on the card title and make up the bulk of the card's content.",
-    "who": "kazue",
+    "who": "Terrance",
     "comment": "comment comment comment comment........."
   },
   {
@@ -125,7 +125,7 @@
     "country": "US",
     "title": null,
     "text": "Some quick example text to build on the card title and make up the bulk of the card's content.",
-    "who": "kazue",
+    "who": "Kazue",
     "comment": "comment comment comment comment........."
   },
   {
@@ -135,7 +135,7 @@
     "country": "US",
     "title": null,
     "text": "Some quick example text to build on the card title and make up the bulk of the card's content.",
-    "who": "kazue",
+    "who": "Oshea",
     "comment": "comment comment comment comment........."
   },
   {
@@ -145,7 +145,7 @@
     "country": "US",
     "title": null,
     "text": "Some quick example text to build on the card title and make up the bulk of the card's content.",
-    "who": "kazue",
+    "who": "Joey",
     "comment": "comment comment comment comment........."
   }
 

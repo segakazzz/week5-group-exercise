@@ -24,13 +24,9 @@
         font-size: 2em;
     }
 
-    #home .nav-link {
-        font-size: .75em;
-    }
-
 }
 
-@media (max-width: 350px){
+@media (max-width: 376px){
     #home h1 {
         font-size: 1.75em;
     }
