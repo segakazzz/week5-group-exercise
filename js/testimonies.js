@@ -1,7 +1,16 @@
 $(function() {
   // $('#testimonies-main').css('display', 'none');
   console.log(window.location.hostname);
-  let dir = (window.location.hostname === 'segakazzz.github.io') ? '/week5-group-exercise/' : '/' 
+  let dir = (window.location.hostname === 'segakazzz.github.io') ? '/week5-group-exercise/' : '/'
+  let masonry = function() {
+    $(".grid").masonry({
+      // options
+      itemSelector: ".grid-item",
+      columnWidth: 300,
+      fitWidth: true
+    });
+  };
+
   
   $.get(dir + "testimonies.json", function(data) {
     for (var i = data.length - 1; i > 0; i--) {
@@ -46,7 +55,7 @@ $(function() {
         .addClass("face col-3")
         .append(
           $("<img>")
-            .attr("src", dir + "img/facepic/" + element.who + ".jpg")
+            .attr("src", dir + "img/" + element.who + "Pic.jpeg")
             .css("height", "auto")
         );
 
@@ -80,17 +89,12 @@ $(function() {
         .addClass("testimony grid-item")
         .append($card)
         .appendTo($("#testimonies-main > .grid"));
-    });
 
-    let masonry = function() {
-      $(".grid").masonry({
-        // options
-        itemSelector: ".grid-item",
-        columnWidth: 300,
-        fitWidth: true
-      });
-    };
-    masonry();
+        if (index == data.length - 1){
+          masonry();
+        }
+    });
+    
     $(".testimony.grid-item").on("click", function() {
       let size = $(this).hasClass("large") ? { width: 600 } : { width: 300 };
       $(this)
