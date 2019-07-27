@@ -6,21 +6,33 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/home.css">
-    <link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
 
     <title>goGiter Adventures!</title>
 </head>
-<body>
-    <!-- BOOTSTRAP NAVBAR -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <!-- LOGO <img src="img/logo.png" alt="logo"> --> 
+<body id="home">
+	<!-- BOOTSTRAP NAVBAR -->
+	<style>
+		.navbar-brand {
+			font-size: 2em;
+			margin: auto;
+		}
+		@media (max-width: 350px){
+			.navbar-brand {
+				font-size: 1.5em;
+			}
+		}
+	</style>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="font-family: 'Amatic SC', cursive">
+        <img height="50" src="img/logo.png" alt="logo"> 
         <!-- REPLACE THIS TEXT WITH THE LOGO -->
-        <a class="navbar-brand" href="#">&nbsp;goGiter Adventures!</a>
+        <a class="navbar-brand" href="index.html">&nbsp;goGiter Adventures!</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div style="justify-content: flex-end" class="collapse navbar-collapse" id="navbarNav">
-            <ul style="text-align: center" class="navbar-nav">
+            <ul style="text-align: center; font-size: 2em" class="navbar-nav">
                 <li class="nav-item active">
                     <a class="nav-link" href="index.html">Home</a>
                 </li>
@@ -39,8 +51,10 @@
     <!-- END BOOTSTRAP NAVBAR -->
 
     <main>
-        <h1>goGiter Adventures!</h1>
-        <p>Welcome to goGiter Adventures!</p>
+		<img style="display:block; max-width: 40%; height: auto; margin: auto; padding-top: 20px" src="img/logo.png" alt="Company Logo">
+		<h1 style="text-align: center">Welcome to goGiter Adventures!</h1>
+		<p>Join us on an <em>amazing</em> journey! Travel the world with goGiter Adventures, and live your greatest life!</p>
+		
 
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">

@@ -1,9 +1,43 @@
 .carousel-inner img {
-    height: 600px;
+    max-height: 600px;
     width: auto;
 }
 
 .carousel-control-next,
 .carousel-control-prev {
     filter: invert(100%);
+}
+
+.carousel-indicators li {
+    background-color: darkslategray
+}
+
+#home h1 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 3em;
+    margin: 20px;
+}
+
+#home p {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+@media (max-width: 500px) {
+    #home h1 {
+        font-size: 2em;
+    }
+
+}
+
+@media (max-width: 350px){
+    #home h1 {
+        font-size: 1.75em;
+    }
+
+    .navbar-brand-mobile {
+        font-size: 1.5em;
+    }
 }
