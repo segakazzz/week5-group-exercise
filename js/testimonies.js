@@ -1,6 +1,9 @@
 $(function() {
   // $('#testimonies-main').css('display', 'none');
-  $.get("/testimonies.json", function(data) {
+  console.log(window.location.hostname);
+  let dir = (window.location.hostname === 'segakazzz.github.io') ? '/week5-group-exercise/' : '/' 
+  
+  $.get(dir + "testimonies.json", function(data) {
     for (var i = data.length - 1; i > 0; i--) {
       var r = Math.floor(Math.random() * (i + 1));
       var tmp = data[i];
@@ -43,7 +46,7 @@ $(function() {
         .addClass("face col-3")
         .append(
           $("<img>")
-            .attr("src", "/img/facepic/" + element.who + ".jpg")
+            .attr("src", dir + "img/facepic/" + element.who + ".jpg")
             .css("height", "auto")
         );
 
