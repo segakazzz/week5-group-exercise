@@ -4,29 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Normalize enabled-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.5.0/modern-normalize.css" integrity="sha256-wOIgn5DueqkvX+IpwWJkwzQblHz45CGXEOjju1aHqFg=" crossorigin="anonymous" />
+    <!-- Bootstrap enabled -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- My Styles -->
+    <link rel="stylesheet" href="subscribe.css">
+   
     <title>Subscribe Page</title>
 </head>
 
 <body>
-    <header>Please Subscribe</header>
+    <header><h1 class='row display-3 justify-content-center align-items-center'>Don't Miss Out On More!</h1></header>
     <!-- logo image -->
-    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+    <pc class="lead row justify-content-center">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
         labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-        nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-         esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+        nisi ut aliquip ex ea commodo consequat. Please make sure you go to the Equifax website to see if your data was released in
+        the breach. Claim your $125. Excepteur sint occaecat cupidatat non proident, sunt in
           culpa qui officia deserunt mollit anim id est laborum."</p>
-    <form action=""></form>
+    <form action="" class='row justify-content-center align-items-center'></form>
         <br>
-        Name: <br>
-        <input type="text" value="First Name"> <br>
-        <input type="text" value="Last Name"> <br>
-        <input type="text" value="Social Security #"> <br>
-        Email: <br>
-        <input type="text" value="Your Email Address"> <br>
+        <input type="text" value="" placeholder="First and Last Name" class='col-2'>
+        <input type="text" readonly value="" placeholder="Social Security #" class='col-2'>
+        <input type="email" value="" placeholder="Your Email Address" class='col-2'>
+        <div>How often would you like an email?<br>
+            <input type="radio" name="Volume" value="Monthly">Monthly<br>
+            <input type="radio" name="Volume" value="Weekly">Weekly<br>
+            <input type="radio" name="Volume" value="Daily">Daily<br>
+
+        </div>
+        <br>
         <input type="submit" value="Submit"> <br>
     </form>
+    <div class="row">
+        <!-- Insert Images towards bottom of page spaced out -->
+        <!-- <figure class="figure">
+            <img src="" class="rounded float-left" alt="">
+            <figcaption class="figure-caption">Chenai</figcaption>
+        </figure>
+        <figure class="figure">
+                <img src="" class="rounded mx-auto d-block" alt="">
+            <figcaption class="figure-caption">Italy</figcaption>
+        </figure>
+        <figure class="figure">
+                <img src="" class="rounded float-right" alt="">
+                <figcaption class="figure-caption">Costa Rica</figcaption>
+        </figure> -->
+    </div>
 
 
     <!-- Activates Bootsrap Javascript -->
