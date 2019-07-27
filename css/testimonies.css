@@ -1,3 +1,4 @@
+
 .testimony .card {
   padding: 0;
 }
@@ -9,15 +10,14 @@ img {
   width: 100%;
 }
 
-.card-body{
+#testimonies-main .card-body{
   /* position: relative; */
 }
-.card-body img{
+#testimonies-main .card-body img{
   /* position: absolute;
   top: 10px;
   right: 10px; */
   max-width: 100px;
-  width: 30%;
   border-radius: 50%;
 }
 .card-body span.badge {
@@ -39,15 +39,15 @@ img {
   background: white; 
 }
 
-#testimonies-main .grid-item:hover{
+/* #testimonies-main .testimony.grid-item:hover{
   width: 600px;
   z-index: 1;
   margin: 10px;
-  position: absolute;
-  top: -10px;
-  left: -10px;
+  position: absoluete;
+  top: 10px;
+  left: 10px;
   box-sizing: border-box;
-}
+} */
 
 #testimonies-main .grid-item--width2 {
   width: 600px;
@@ -55,4 +55,14 @@ img {
 
 #testimonies-main .grid{
   margin: 0 auto;
+}
+
+#testimonies-main .date{
+  font-size: 0.8rem;
+  color: gray;
+  text-align: end;
+}
+
+#testimonies-main .face{
+  padding: 0
 }
