@@ -91,7 +91,9 @@ $(function() {
         .appendTo($("#testimonies-main > .grid"));
 
         if (index == data.length - 1){
-          masonry();
+          $('img').on('load', function(){
+            masonry();
+          });
         }
     });
     

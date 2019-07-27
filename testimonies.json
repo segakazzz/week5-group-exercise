@@ -1,6 +1,6 @@
 [
   {
-    "imgSource": "https://mdbootstrap.com/img/Photos/Others/food3.jpg",
+    "imgSource": "img/amalfi.jpg",
     "date": "2019-07-01",
     "city": "Houston",
     "country": "US",
@@ -10,7 +10,7 @@
     "comment": "comment comment comment comment........."
   },
   {
-    "imgSource": "https://mdbootstrap.com/img/Photos/Others/food3.jpg",
+    "imgSource": "img/amsterdam.jpg",
     "date": "2017-10-30",
     "city": "Houston",
     "country": "US",
@@ -20,7 +20,7 @@
     "comment": "comment comment comment comment........."
   },
   {
-    "imgSource": "https://mdbootstrap.com/img/Photos/Others/food2.jpg",
+    "imgSource": "img/huts.jpg",
     "date": "2017-08-26",
     "city": "Houston",
     "country": "US",
@@ -30,7 +30,7 @@
     "comment": "comment comment comment comment........."
   },
   {
-    "imgSource": "https://mdbootstrap.com/img/Photos/Others/image06.jpg",
+    "imgSource": "maldives.jpg",
     "date": "2016-12-19",
     "city": "Houston",
     "country": "US",
