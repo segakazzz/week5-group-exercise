@@ -11,6 +11,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/nav.css" />
     <link rel="stylesheet" href="css/testimonies.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Acme|Amatic+SC|Jacques+Francois+Shadow|Lacquer&display=swap"
@@ -20,45 +21,53 @@
     <title>This is Testimonies!</title>
   </head>
   <body>
-	<!-- BOOTSTRAP NAVBAR -->
-	<style>
-      .navbar-brand {
-        font-size: 2em;
-        margin: auto;
-      }
-      @media (max-width: 350px){
-        .navbar-brand {
-          font-size: 1.5em;
-        }
-      }
-    </style>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="font-family: 'Amatic SC', cursive; position: fixed; top: 0; width: 100%">
-      <a href="index.html"><img href="index.html" height="50" src="img/logo.png" alt="logo"></a>
-          <a class="navbar-brand" href="index.html">&nbsp;goGiter Adventures!</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-          </button>
-          <div style="justify-content: flex-end" class="collapse navbar-collapse" id="navbarNav">
-              <ul style="text-align: center; font-size: 2em" class="navbar-nav">
-                  <li class="nav-item active">
-                      <a class="nav-link" href="index.html">Home</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="about.html">About</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="subscribe.html">Subscribe</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="testimonies.html">Testimonies</a>
-                  </li>
-              </ul>
+    <!-- BOOTSTRAP NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a href="index.html"
+        ><img
+          href="index.html"
+          height="50"
+          src="img/logo.png"
+          alt="goGiter Adventures Logo"
+      /></a>
+      <a class="navbar-brand" href="index.html">&nbsp;goGiter Adventures!</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div
+        style="justify-content: flex-end"
+        class="collapse navbar-collapse"
+        id="navbarNav"
+      >
+        <ul style="text-align: center; font-size: 2em" class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="subscribe.html">Subscribe</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="testimonies.html">Testimonies</a>
+          </li>
+        </ul>
       </div>
     </nav>
     <!-- this div adds padding so the navbar does not cover the top of the main content -->
     <div style="padding-bottom: 75px"></div>
-      <!-- END BOOTSTRAP NAVBAR -->
-  
+
+    <!-- END BOOTSTRAP NAVBAR -->Î
+
     <section id="testimonies-main" class="container-fluid">
       <h1 id="testimonies-title">Our adventures never end...</h1>
       <div class="grid">
@@ -98,8 +107,8 @@
         </div> -->
       </div>
     </section>
-    	<!-- FOOTER -->
-	<footer>
+    <!-- FOOTER -->
+    <footer>
       <style>
         .footer {
           position: fixed;
@@ -109,21 +118,21 @@
           background-color: #343a40;
           color: gray;
           text-align: center;
-          font-size: .75em;
+          font-size: 0.75em;
           z-index: 2;
         }
         .footer p {
           margin-top: 1rem;
         }
-        </style>
-        
-        <!-- this div adds padding so things don't get hidden behind the footer -->
-        <div style="padding-top:50px"></div>
-        <div class="footer">
-          <p>&copy; 2019 goGiter Adventures</p>
-        </div>
-      </footer>
-      <!-- END FOOTER -->
+      </style>
+
+      <!-- this div adds padding so things don't get hidden behind the footer -->
+      <div style="padding-top:50px"></div>
+      <div class="footer">
+        <p>&copy; 2019 goGiter Adventures</p>
+      </div>
+    </footer>
+    <!-- END FOOTER -->
     Ï<script
       src="https://code.jquery.com/jquery-3.4.1.min.js"
       integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
