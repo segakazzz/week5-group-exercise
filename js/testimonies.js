@@ -41,7 +41,7 @@ $(function() {
       }
       let $location = $("<div>")
         .addClass("container-fluid location")
-        .text(element.city + ' ,'+ element.country)
+        .text(element.city + ', '+ element.country)
         .prepend($("<i>").addClass("fas fa-thumbtack"))
       let $cardText = $("<p>").text(element.text);
       let $cardBody = $("<div>")

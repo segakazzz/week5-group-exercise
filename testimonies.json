@@ -2,68 +2,68 @@
   {
     "imgSource": "img/amalfi.jpg",
     "date": "2019-07-01",
-    "city": "Houston",
-    "country": "US",
-    "title": "test",
-    "text": "testtext",
+    "city": "Amalfi",
+    "country": "Italy",
+    "title": "Amalfi Coast",
+    "text": "The Amalfi Coast (Italian: Costiera Amalfitana) is a stretch of coastline on the northern coast of the Salerno Gulf on the Tyrrhenian Sea, located in the Province of Salerno of southern Italy.",
     "who": "Kazue",
-    "comment": "comment comment comment comment........."
+    "comment": "Beautiful, beautiful and beautiful...."
   },
   {
     "imgSource": "img/amsterdam.jpg",
     "date": "2017-10-30",
-    "city": "Houston",
-    "country": "US",
-    "title": null,
-    "text": "testtext",
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "title": "The Jordaan",
+    "text": "The Jordaan is a neighbourhood of the city of Amsterdam, Netherlands. It is part of the borough of Amsterdam-Centrum. The area is bordered by the Singelgracht canal and the neighbourhood of Frederik Hendrikbuurt to the west; the Prinsengracht to the east; the Brouwersgracht to the north and the Leidsegracht to the south. The former canal Rozengracht (now filled in) is the main traffic artery through the neighbourhood.",
     "who": "Oshea",
-    "comment": "comment comment comment comment........."
+    "comment": "Fantastic!"
   },
   {
     "imgSource": "img/huts.jpg",
     "date": "2017-08-26",
-    "city": "Houston",
-    "country": "US",
-    "title": null,
-    "text": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+    "city": "Maldives",
+    "country": "Maldives",
+    "title": "Maldives Huts",
+    "text": "The Maldives officially the Republic of Maldives, is a small country in South Asia, located in the Arabian Sea of the Indian Ocean. It lies southwest of Sri Lanka and India, about 1,000 kilometres (620 mi) from the Asian continent. The chain of 26 atolls stretches from Ihavandhippolhu Atoll in the north to Addu Atoll in the south.",
     "who": "Joey",
-    "comment": "comment comment comment comment........."
+    "comment": "Dreaming destination"
   },
   {
-    "imgSource": "maldives.jpg",
+    "imgSource": "img/maldives.jpg",
     "date": "2016-12-19",
-    "city": "Houston",
-    "country": "US",
-    "title": null,
-    "text": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+    "city": "Maldives",
+    "country": "Maldives",
+    "title": "Maldives Cottages",
+    "text": "The Maldives officially the Republic of Maldives, is a small country in South Asia, located in the Arabian Sea of the Indian Ocean. It lies southwest of Sri Lanka and India, about 1,000 kilometres (620 mi) from the Asian continent. The chain of 26 atolls stretches from Ihavandhippolhu Atoll in the north to Addu Atoll in the south.",
     "who": "Terrance",
-    "comment": "comment comment comment comment........."
+    "comment": ""
   },
   {
-    "imgSource": "https://mdbootstrap.com/img/Photos/Others/image02.jpg",
+    "imgSource": "https://files.tripstodiscover.com/files/2015/05/Santorini-Greece.jpg",
     "date": "2017-08-26",
-    "city": "Houston",
-    "country": "US",
-    "title": null,
-    "text": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+    "city": "Santorini",
+    "country": "Greece",
+    "title": "Santorini Island",
+    "text": "Santorini is an island in the southern Aegean Sea, about 200 km (120 mi) southeast of Greece's mainland. It is the largest island of a small, circular archipelago, which bears the same name and is the remnant of a volcanic caldera.",
     "who": "Kazue",
-    "comment": "comment comment comment comment........."
+    "comment": ""
   },
   {
-    "imgSource": "https://mdbootstrap.com/img/Photos/Others/image002.jpg",
+    "imgSource": "https://files.tripstodiscover.com/files/2015/05/Bora-Bora-French-Polynesia.jpg",
     "date": "2017-08-26",
-    "city": "Houston",
-    "country": "US",
-    "title": null,
+    "city": "Bora Bora",
+    "country": "French Polynesia",
+    "title": "Bora Bora Island",
     "who": "Oshea",
     "text": "Some quick example text to build on the card title and make up the bulk of the card's content."
   },
   {
-    "imgSource": "https://mdbootstrap.com/img/Photos/Others/image06.jpg",
+    "imgSource": "https://www.telegraph.co.uk/content/dam/Travel/hotels/europe/france/paris/paris-cityscape-overview-guide.jpg?imwidth=1400",
     "date": "2016-12-19",
-    "city": "Houston",
-    "country": "US",
-    "title": null,
+    "city": "Paris",
+    "country": "France",
+    "title": "Paris city",
     "text": "Some quick example text to build on the card title and make up the bulk of the card's content.",
     "who": "Joey",
     "comment": "comment comment comment comment........."
@@ -148,5 +148,4 @@
     "who": "Joey",
     "comment": "comment comment comment comment........."
   }
-
 ]
