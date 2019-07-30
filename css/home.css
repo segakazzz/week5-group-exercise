@@ -1,18 +1,24 @@
-#home .carousel-control-next:hover {
+@media only screen and (min-width: 992px) { 
+
+    #home .carousel-control-next:hover {
     background-color: rgba(128, 128, 128, 0.301);
+    }
+    
+    #home .carousel-control-prev:hover {
+    background-color: rgba(128, 128, 128, 0.301);
+    }   
 }
 
-#home .carousel-control-prev:hover {
-    background-color: rgba(128, 128, 128, 0.301);
-}
 #home .carousel-indicators {
     z-index: 1;
 }
+
 #home h1 {
     font-family: 'Amatic SC', cursive;
     font-size: 3em;
     margin: 20px;
 }
+
 #home p {
     text-align: center;
     padding-left: 10px;
@@ -24,13 +30,9 @@
         font-size: 2em;
     }
 
-    #home .nav-link {
-        font-size: .75em;
-    }
-
 }
 
-@media (max-width: 350px){
+@media (max-width: 376px){
     #home h1 {
         font-size: 1.75em;
     }

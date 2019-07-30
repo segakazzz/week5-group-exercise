@@ -1,7 +1,16 @@
 $(function() {
   // $('#testimonies-main').css('display', 'none');
   console.log(window.location.hostname);
-  let dir = (window.location.hostname === 'segakazzz.github.io') ? '/week5-group-exercise/' : '/' 
+  let dir = (window.location.hostname === 'segakazzz.github.io') ? '/week5-group-exercise/' : '/'
+  let masonry = function() {
+    $(".grid").masonry({
+      // options
+      itemSelector: ".grid-item",
+      columnWidth: 400,
+      fitWidth: true
+    });
+  };
+
   
   $.get(dir + "testimonies.json", function(data) {
     for (var i = data.length - 1; i > 0; i--) {
@@ -32,7 +41,7 @@ $(function() {
       }
       let $location = $("<div>")
         .addClass("container-fluid location")
-        .text(element.city + ' ,'+ element.country)
+        .text(element.city + ', '+ element.country)
         .prepend($("<i>").addClass("fas fa-thumbtack"))
       let $cardText = $("<p>").text(element.text);
       let $cardBody = $("<div>")
@@ -46,7 +55,7 @@ $(function() {
         .addClass("face col-3")
         .append(
           $("<img>")
-            .attr("src", dir + "img/facepic/" + element.who + ".jpg")
+            .attr("src", dir + "img/" + element.who + "Pic.jpeg")
             .css("height", "auto")
         );
 
@@ -80,19 +89,16 @@ $(function() {
         .addClass("testimony grid-item")
         .append($card)
         .appendTo($("#testimonies-main > .grid"));
-    });
 
-    let masonry = function() {
-      $(".grid").masonry({
-        // options
-        itemSelector: ".grid-item",
-        columnWidth: 300,
-        fitWidth: true
-      });
-    };
-    masonry();
+        if (index == data.length - 1){
+          $('img').on('load', function(){
+            masonry();
+          });
+        }
+    });
+    
     $(".testimony.grid-item").on("click", function() {
-      let size = $(this).hasClass("large") ? { width: 600 } : { width: 300 };
+      let size = $(this).hasClass("large") ? { width: 800 } : { width: 400 };
       $(this)
         .toggleClass("large")
         .animate(size, masonry);
@@ -101,6 +107,8 @@ $(function() {
 });
 
 function formatDate(date) {
+  var cstDate = new Date();
+  cstDate.setTime(date.getTime() + cstDate.getTimezoneOffset() * 60 * 1000)
   var monthNames = [
     "Jan",
     "Feb",
@@ -116,9 +124,9 @@ function formatDate(date) {
     "Dec"
   ];
 
-  var day = date.getDate();
-  var monthIndex = date.getMonth();
-  var year = date.getFullYear();
+  var day = cstDate.getDate();
+  var monthIndex = cstDate.getMonth();
+  var year = cstDate.getFullYear();
 
-  return day + " " + monthNames[monthIndex] + " " + year;
+  return  monthNames[monthIndex] + " " + day + ", " + year;
 }

@@ -6,13 +6,10 @@
   padding: 10px;
 }
 
-img {
+#testimonies-main img {
   width: 100%;
 }
 
-#testimonies-main .card-body{
-  /* position: relative; */
-}
 #testimonies-main .card-body img{
   /* position: absolute;
   top: 10px;
@@ -35,7 +32,7 @@ img {
 }
 
 #testimonies-main .grid-item {
-  width: 300px;
+  width: 400px;
   background: white; 
 }
 
@@ -50,7 +47,7 @@ img {
 } */
 
 #testimonies-main .grid-item--width2 {
-  width: 600px;
+  width: 800px;
 }
 
 #testimonies-main .grid{
