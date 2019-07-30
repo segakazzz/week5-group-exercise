@@ -6,7 +6,7 @@ $(function() {
     $(".grid").masonry({
       // options
       itemSelector: ".grid-item",
-      columnWidth: 300,
+      columnWidth: 400,
       fitWidth: true
     });
   };
@@ -41,7 +41,7 @@ $(function() {
       }
       let $location = $("<div>")
         .addClass("container-fluid location")
-        .text(element.city + ' ,'+ element.country)
+        .text(element.city + ', '+ element.country)
         .prepend($("<i>").addClass("fas fa-thumbtack"))
       let $cardText = $("<p>").text(element.text);
       let $cardBody = $("<div>")
@@ -98,7 +98,7 @@ $(function() {
     });
     
     $(".testimony.grid-item").on("click", function() {
-      let size = $(this).hasClass("large") ? { width: 600 } : { width: 300 };
+      let size = $(this).hasClass("large") ? { width: 800 } : { width: 400 };
       $(this)
         .toggleClass("large")
         .animate(size, masonry);
