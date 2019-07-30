@@ -1,77 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/nav.css" />
-    <link rel="stylesheet" href="css/testimonies.css" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Acme|Amatic+SC|Jacques+Francois+Shadow|Lacquer&display=swap"
-      rel="stylesheet"
-    />
 
-    <title>goGiter Adventures!</title>
-  </head>
-  <body>
-    <!-- BOOTSTRAP NAVBAR -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a href="index.html"
-        ><img
-          href="index.html"
-          height="50"
-          src="img/logo.png"
-          alt="goGiter Adventures Logo"
-      /></a>
-      <a class="navbar-brand" href="index.html">&nbsp;goGiter Adventures!</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div
-        style="justify-content: flex-end"
-        class="collapse navbar-collapse"
-        id="navbarNav"
-      >
-        <ul style="text-align: center; font-size: 2em" class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="subscribe.html">Subscribe</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="testimonies.html">Testimonies</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-    <!-- this div adds padding so the navbar does not cover the top of the main content -->
-    <div style="padding-bottom: 75px"></div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/nav.css" />
+  <link rel="stylesheet" href="css/testimonies.css" />
+  <link href="https://fonts.googleapis.com/css?family=Acme|Amatic+SC|Jacques+Francois+Shadow|Lacquer&display=swap"
+    rel="stylesheet" />
 
-    <!-- END BOOTSTRAP NAVBAR -->
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+  <link rel="manifest" href="favicon/site.webmanifest">
 
-    <section id="testimonies-main" class="container-fluid">
-      <h1 id="testimonies-title">Our adventures never end...</h1>
-      <div class="grid">
-        <!-- <div class="testimony grid-item">
+  <title>goGiter Adventures!</title>
+</head>
+
+<body>
+  <!-- BOOTSTRAP NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a href="index.html"><img href="index.html" height="50" src="img/logo.png" alt="goGiter Adventures Logo" /></a>
+    <a class="navbar-brand" href="index.html">&nbsp;goGiter Adventures!</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div style="justify-content: flex-end" class="collapse navbar-collapse" id="navbarNav">
+      <ul style="text-align: center; font-size: 2em" class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="subscribe.html">Subscribe</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="testimonies.html">Testimonies</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- this div adds padding so the navbar does not cover the top of the main content -->
+  <div style="padding-bottom: 75px"></div>
+
+  <!-- END BOOTSTRAP NAVBAR -->
+
+  <section id="testimonies-main" class="container-fluid">
+    <h1 id="testimonies-title">Our adventures never end...</h1>
+    <div class="grid">
+      <!-- <div class="testimony grid-item">
           <div class="card">
             <img
               src="https://mdbootstrap.com/img/Photos/Others/image02.jpg"
@@ -105,56 +89,52 @@
             </div>
           </div>
         </div> -->
-      </div>
-    </section>
-    <!-- FOOTER -->
-    <footer>
-      <style>
-        .footer {
-          position: fixed;
-          left: 0;
-          bottom: 0;
-          width: 100%;
-          background-color: #343a40;
-          color: gray;
-          text-align: center;
-          font-size: 0.75em;
-          z-index: 2;
-        }
-        .footer p {
-          margin-top: 1rem;
-        }
-      </style>
+    </div>
+  </section>
+  <!-- FOOTER -->
+  <footer>
+    <style>
+      .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #343a40;
+        color: gray;
+        text-align: center;
+        font-size: 0.75em;
+        z-index: 2;
+      }
 
-      <!-- this div adds padding so things don't get hidden behind the footer -->
-      <div style="padding-top:50px"></div>
-      <div class="footer">
-        <p>&copy; 2019 goGiter Adventures</p>
-      </div>
-    </footer>
-    <!-- END FOOTER -->
-    Ï<script
-      src="https://code.jquery.com/jquery-3.4.1.min.js"
-      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-      crossorigin="anonymous"
-    ></script>
-    <!-- <script
+      .footer p {
+        margin-top: 1rem;
+      }
+    </style>
+
+    <!-- this div adds padding so things don't get hidden behind the footer -->
+    <div style="padding-top:50px"></div>
+    <div class="footer">
+      <p>&copy; 2019 goGiter Adventures</p>
+    </div>
+  </footer>
+  <!-- END FOOTER -->
+  Ï
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <!-- <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
       crossorigin="anonymous"
     ></script> -->
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-      crossorigin="anonymous"
-    ></script>
-    <script src="https://kit.fontawesome.com/21961517fb.js"></script>
-    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
-    <script type="text/javascript" src="js/testimonies.js"></script>
-  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/21961517fb.js"></script>
+  <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+  <script type="text/javascript" src="js/testimonies.js"></script>
+</body>
+
 </html>
