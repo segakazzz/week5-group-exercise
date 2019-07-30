@@ -2,7 +2,7 @@
 
 ## Testimonies
 
-* Used JQuery Plugin [Masonry](https://masonry.desandro.com/) for Masonry layout to avoid adjusting the ratio of width and height for each photographs.
+* Used JQuery Plugin [Masonry](https://masonry.desandro.com/) for Masonry layout to avoid adjusting the ratio of width and height for each photo.
 
 ~~~html
 <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
