@@ -107,6 +107,8 @@ $(function() {
 });
 
 function formatDate(date) {
+  var cstDate = new Date();
+  cstDate.setTime(date.getTime() + cstDate.getTimezoneOffset() * 60 * 1000)
   var monthNames = [
     "Jan",
     "Feb",
@@ -122,9 +124,9 @@ function formatDate(date) {
     "Dec"
   ];
 
-  var day = date.getDate();
-  var monthIndex = date.getMonth();
-  var year = date.getFullYear();
+  var day = cstDate.getDate();
+  var monthIndex = cstDate.getMonth();
+  var year = cstDate.getFullYear();
 
-  return day + " " + monthNames[monthIndex] + " " + year;
+  return  monthNames[monthIndex] + " " + day + ", " + year;
 }
