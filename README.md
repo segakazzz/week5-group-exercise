@@ -61,7 +61,7 @@
   }
 ~~~
 
-* On clicking each card, the size of photo is toggled between small(400px in width) and large (800px in width). The masonry layout is re-generated on click.
+* On clicking each card, the size of photo is toggled between small(400px in width) and large (800px in width). The masonry layout is re-generated on click action.
 
 ~~~js
     $(".testimony.grid-item").on("click", function() {
@@ -72,7 +72,7 @@
     });
 ~~~
 
-* [Bootstrap Badges](https://getbootstrap.com/docs/4.3/components/badge/) is used for showing "New" for added recently. This is automatically judged by looking "date" key in json data. 
+* [Bootstrap Badges](https://getbootstrap.com/docs/4.3/components/badge/) is used for showing "New" for images added recently (within a month). This is automatically judged by looking "date" key in json data. 
 
 ~~~js
     let newAfter = new Date();
