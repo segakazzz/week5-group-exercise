@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(../img/mapbackground.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(209, 209, 209);
+    font-family: 'Amatic SC', cursive;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(183, 73, 43);
+}
+
+h1{
+    font-size: 75px;
+    text-shadow: rgb(192, 241, 252) 0.1em 0.1em 0.2em;
+    color: rgb(15, 79, 159);
+    font-weight: bold;
+}
+
+h3{
+    font-size: 36px;
+    color: rgb(15, 79, 159);
+    font-weight: bold;
+}
+
+h4{
+    font-size: 35px;
+    text-shadow: rgb(192, 241, 252) 0.1em 0.1em 0.2em;
+    font-weight: bolder;
+    color: rgb(211, 86, 55);
+}
+
+h5{
+    font-size: 25px;
+    font-weight: bolder;
+    color: rgb(183, 73, 43);
+}
+
+.card{
+    background-color: rgba(250, 252, 249, 0.9);
+}
+#team img{
+    margin-top: 50px;
+}
+
+#team i{
+    font-size: 26px;
+    color: rgb(15, 79, 159);
+}
+
+#team p{
+    font-weight: 500;
+}
+
+#team .card{
+    border-radius: 0;
+    box-shadow: 5px 5px 15px rgb(192, 241, 252);
+    transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+}
+
+#team .card:hover{
+    background: rgb(52, 58, 64);
+    color: rgb(219, 224, 226);
+    border-radius: 5px;
+    border: none;
+    box-shadow: 5px 5px 10px rgb(15, 79, 159);
+}
+
+#team .card:hover h3, #team .card:hover i{
+    color:wheat;
+}
