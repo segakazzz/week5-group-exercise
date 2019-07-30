@@ -46,8 +46,6 @@
 
 * Jquery code in [js/testimonies.js](js/testimonies.js) creates the dom of card elements by loading [testimonies.json](testimonies.json). This is to avoid to write complecatedly nested html cards.
 
-
-
 ~~~json
   {
     "imgSource": "img/amalfi.jpg",
@@ -60,6 +58,17 @@
     "comment": "Beautiful, beautiful and beautiful...."
   }
 ~~~
+
+* On refreshing the page, the order of cards is shuffled by Javascript code.
+
+~~~js
+    for (var i = data.length - 1; i > 0; i--) {
+      var r = Math.floor(Math.random() * (i + 1));
+      var tmp = data[i];
+      data[i] = data[r];
+      data[r] = tmp;
+    }
+~~~    
 
 * On clicking each card, the size of photo is toggled between small(400px in width) and large (800px in width). The masonry layout is re-generated on click action.
 
@@ -87,3 +96,4 @@
         $cardTitle.prepend($new);
     }
 ~~~
+
