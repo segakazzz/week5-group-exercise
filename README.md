@@ -99,4 +99,5 @@
 
 # What is this Project?
 
-This project served as a training ground for learning about Git Workflows. It is intended to not be incomplete and may not be updated. In this project we learned about Git workflows. While using a branch workflow is what we initially set out to do, we decided on merging our branches to the master a bit earlier in order for all of our teammates to keep track of the individual parts of the project. In summary, it was a success. Personally, I overcame an issue I had with CSS involving align-items. Using the browser developer tools in Google Chrome was instrumental in correcting it. Also, the site was built using Bootstrap. 
+This project served as a training ground for learning about Git Workflows. It is intended to not be incomplete and may not be updated. In this project we learned about Git workflows. While using a branch workflow is what we initially set out to do, we decided on merging our branches to the master a bit earlier in order for all of our teammates to keep track of the individual parts of the project. In summary, it was a success. Personally, I overcame an issue I had with CSS involving align-items. Using the browser developer tools in Google Chrome was instrumental in correcting it.
+- tjeve
