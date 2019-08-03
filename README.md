@@ -1,5 +1,93 @@
-# This is our project!
+# First Group Project in Digital Craft
 
+The purpose of this project was create a simple multi-page website as a group, utilzing Github to share and manage our files. 
+
+## Collaborators
+
+* [Oshea Deans](https://github.com/OsheaRD)
+* [Terrence Eveline](https://github.com/tjeve)
+* [Joey Killam](https://github.com/jhkillam)
+* [Kazue Sasatani](https://github.com/segakazzz)
+
+## Key Takeaways
+
+Github proved to be a very useful tool for us to share what we were working on, and to help each other out with any issues. If I had more time to work on this with the group, I would have liked to clean up the file structure, and also merged all of our css files into one master stylesheet, rather than using stylesheets for each page. Additionally, I would have liked to put more content into the footer to be used across the rest of the site.
+
+## Home page + Navbar/Footer
+
+### Designed by [Joey Killam](https://github.com/jhkillam)
+
+For the navbar and footer, Bootstrap was used with some modifications to the font size of the brand name and navigation links for mobile responsiveness using media queries. The HTML and CSS for the navbar and footer was shared with each contributor to add to their page. We also imported a Google font to use across the entire site for these sections.  
+
+The logo was created using the free version of [Logo_Maker](https://apps.apple.com/us/app/logo-maker-create-a-design/id1143390028) for iOS. [Kazue](https://github.com/segakazzz) converted it for use as a favicon using [Favicon Converter](https://favicon.io/favicon-converter/).
+
+The first primary image after the header was intended to be a large parallax-style image, but we found that the implementation  utilizing only CSS was not ideal, and had issues on mobile, so a media query was used to disable it on mobile. 
+
+The carousel image viewer was implemented using a [Bootstrap Carousel](https://getbootstrap.com/docs/4.0/components/carousel/), and a low opacity grey background was added to the next and previous arrow indicators when a mouse hovers them to make them more obvious when the arrows cannot be seen if the colors are hidden by the image. This was disabled on mobile using a media query due to inconsistent interactions with touch screens. 
+
+The buttons at the bottom linking to the rest of the site were created using some effects from [CSSFX](https://cssfx.dev/), and modified with Flexbox for responsiveness. An example is shown below. 
+
+* HTML
+~~~html
+<div class="button-container">
+  <button onclick="window.location.href='about.html'">About</button>
+  <button onclick="window.location.href='subscribe.html'">Subscribe</button>
+  <button onclick="window.location.href='testimonies.html'">Testimonies</button>
+</div>
+~~~
+
+* CSS
+~~~css
+.button-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+button {
+  z-index: 1;
+  position: relative;
+  font-size: 2em;
+  font-family: 'Amatic SC', cursive;
+  color: white;
+  padding: 0.5em 1em;
+  outline: none;
+  border: none;
+  background-color: hsl(236, 32%, 26%);
+  overflow: hidden;
+  transition: color 0.4s ease-in-out;
+  width: 200px;
+  flex-grow: 1;
+}
+  
+button::before {
+  content: '';
+  z-index: -1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  background-color: #3cefff;
+  transform-origin: center;
+  transform: translate3d(-50%, -50%, 0) scale3d(0, 0, 0);
+  transition: transform 0.45s ease-in-out;
+}
+  
+button:hover {
+  cursor: pointer;
+  color: #161616;
+}
+  
+main button:hover::before {
+  transform: translate3d(-50%, -50%, 0) scale3d(15, 15, 15);
+}
+~~~
+
+## Testimonies
+
+### Designed by [Kazue Sasatani](https://github.com/segakazzz)
 ## Testimonies
 
 * Used JQuery Plugin [Masonry](https://masonry.desandro.com/) for Masonry layout to avoid adjusting the ratio of width and height for each photo.
