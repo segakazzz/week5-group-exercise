@@ -2,6 +2,10 @@
 
 The purpose of this project was create a simple multi-page website as a group, utilzing Github to share and manage our files. 
 
+## Link to the work
+
+https://segakazzz.github.io/week5-group-exercise
+
 ## Collaborators
 
 * [Oshea Deans](https://github.com/OsheaRD)
